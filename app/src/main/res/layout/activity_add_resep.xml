@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddResepActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan Nama Resep"/>
+
+        <EditText
+            android:id="@+id/et_deskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:hint="Masukkan Deskripsi "
+            android:inputType="textMultiLine"/>
+
+        <EditText
+            android:id="@+id/et_resep"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:hint="Deskripsi Resep"
+            android:inputType="textMultiLine"/>
+
+        <Button
+            android:id="@+id/btnSimpan"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/font_white_primary"
+            android:text="Simpan"/>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
